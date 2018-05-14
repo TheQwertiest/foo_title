@@ -232,11 +232,8 @@ namespace fooTitle.Layers
         /// <param name="p">Parameters for the delegate</param>
         protected static void SendEvent(object eventObj, params object[] p)
         {
-            if (eventObj != null)
-            {
-                Delegate d = (Delegate) eventObj;
-                d.DynamicInvoke(p);
-            }
+            Delegate d = (Delegate) eventObj;
+            d?.DynamicInvoke(p);
         }
 
         protected static void SendEventCatch(object eventObj, params object[] p)

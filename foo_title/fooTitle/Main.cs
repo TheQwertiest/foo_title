@@ -109,19 +109,21 @@ namespace fooTitle {
             }
         }
 
-        protected void SkinPath_OnChanged(string name) {
-            if (initDone) {
-                try {
-                    SkinState.ResetState();
-                    LoadSkin(SkinPath);
-                    // Changing to skin with different anchor type 
-                    // may cause window to go beyond screen borders
-                    Display.ReadjustPosition();
-                    SavePosition();
-                } catch (Exception e) {
-                    CurrentSkin = null;
-                    System.Windows.Forms.MessageBox.Show($"foo_title - There was an error loading skin {SkinPath}:\n {e.Message} \n {e}", "foo_title");
-                }
+        protected void SkinPath_OnChanged(string name)
+        {
+            if (!initDone)
+                return;
+
+            try {
+                SkinState.ResetState();
+                LoadSkin(SkinPath);
+                // Changing to skin with different anchor type 
+                // may cause window to go beyond screen borders
+                Display.ReadjustPosition();
+                SavePosition();
+            } catch (Exception e) {
+                CurrentSkin = null;
+                System.Windows.Forms.MessageBox.Show($"foo_title - There was an error loading skin {SkinPath}:\n {e.Message} \n {e}", "foo_title");
             }
         }
 

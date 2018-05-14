@@ -4,6 +4,7 @@ Debug_crtdll/
 Release_crtdll/
 .vs/
 ipch/
+_result/
 
 *.VC.db
 *.VC.opendb

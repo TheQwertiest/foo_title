@@ -77,34 +77,16 @@
     <ClInclude Include="Command.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentLoader.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="configIOCallback.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="fooServices.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="initQuit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="mainMenuCommands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ManagedWrapper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="playCallback.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="prefPages_v3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="component_version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Console.h">
@@ -123,6 +105,24 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EnumeratorAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="component_version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="configIOCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fooServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="initQuit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="playCallback.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
